@@ -4,23 +4,23 @@ A **Claude Code skill** that teaches Claude how to build Next.js applications us
 
 ## What Is This?
 
-This is a skill (a structured knowledge pack) designed for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — Anthropic's command-line coding agent. When installed, it gives Claude deep, up-to-date knowledge of the Shadcn UI ecosystem, so it can scaffold, build, and customize Shadcn-based interfaces accurately and idiomatically.
+This is a skill (a structured knowledge pack) designed for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Anthropic's command line coding agent. When installed, it gives Claude deep up-to-date knowledge of the Shadcn UI ecosystem, so it can scaffold, build, and customize Shadcn-based interfaces accurately and idiomatically.
 
-Instead of relying on Claude's training data (which may be outdated), this skill provides curated reference material, code examples, and best-practice patterns that Claude reads at task time.
+Instead of relying on Claude's training data (which may be outdated), this skill provides curated reference material, code examples and best-practice patterns that Claude reads at task time.
 
-## What Does It Cover?
+## What Does It Cover (?)
 
 The skill covers the full Shadcn UI workflow for Next.js App Router projects:
 
-- **CLI & Configuration** — `npx shadcn@latest init/add`, `components.json` schema, path aliases, package manager support
-- **Component Catalog** — Every Shadcn component categorized by type, with install commands, imports, and variant documentation
-- **Composition Patterns** — Server vs. Client Components, provider setup, layout patterns, responsive design
-- **Forms** — React Hook Form + Zod validation + Shadcn Form components, including advanced patterns (dynamic arrays, Server Actions)
-- **Data Tables** — TanStack Table integration with the 3-file architecture (columns, data-table, page), sorting, filtering, pagination
-- **Charts** — Recharts integration via Shadcn's `ChartContainer`, `ChartConfig` objects, tooltips, and legends
-- **Theming & Dark Mode** — CSS variables with `oklch` color format, `next-themes` setup, TweakCN editor workflow
-- **Blocks** — Pre-built full-page compositions (dashboards, login pages, sidebars) with dependency management
-- **Accessibility** — Built-in Radix a11y features and developer responsibilities
+- **CLI & Configuration** - `npx shadcn@latest init/add`, `components.json` schema, path aliases, package manager support
+- **Component Catalog** - Every Shadcn component categorized by type, with install commands, imports, and variant documentation
+- **Composition Patterns** - Server vs. Client Components, provider setup, layout patterns, responsive design
+- **Forms** - React Hook Form + Zod validation + Shadcn Form components, including advanced patterns (dynamic arrays, Server Actions)
+- **Data Tables** - TanStack Table integration with the 3-file architecture (columns, data-table, page), sorting, filtering, pagination
+- **Charts** - Recharts integration via Shadcn's `ChartContainer`, `ChartConfig` objects, tooltips, and legends
+- **Theming & Dark Mode** - CSS variables with `oklch` color format, `next-themes` setup, TweakCN editor workflow
+- **Blocks** - Pre-built full-page compositions (dashboards, login pages, sidebars) with dependency management
+- **Accessibility** - Built-in Radix a11y features and developer responsibilities
 
 ## Repository Structure
 
@@ -46,7 +46,7 @@ shadcn-ui/
 
 ## How to Install
 
-### Option 1 — Copy into your project
+### Option 1 / Copy into your project
 
 Place the `shadcn-ui/` folder inside your project's `.claude/skills/` directory:
 
@@ -62,7 +62,7 @@ your-project/
 
 Claude Code will automatically detect the skill and use it when you ask it to work with Shadcn UI.
 
-### Option 2 — Global installation
+### Option 2 / Global installation
 
 Place the folder in your home directory's Claude skills location:
 
